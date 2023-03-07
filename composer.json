@@ -1,0 +1,36 @@
+{
+  "name": "onlineidentity/laravel-channable",
+  "description": "Laravel wrapper for OnlineIdentity Channable API connector",
+  "type": "library",
+  "keywords": ["api","channable","connector","laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bryan Schreuder",
+      "email": "bryan@onlineidentity.nl"
+    },
+    {
+      "name": "Joeri Aben",
+      "email": "joeri@onlineidentity.nl"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "onlineidentity/channable": "dev-master",
+    "illuminate/support": "^6|^7|^8|^9|^10"
+  },
+  "autoload": {
+    "psr-4": {
+      "OnlineIdentity\\LaravelChannable\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "OnlineIdentity\\LaravelChannable\\ChannableServiceProvider"
+      ]
+    }
+  }
+}
