@@ -16,7 +16,7 @@
   ],
   "require": {
     "php": "^8.1",
-    "onlineidentity/channable": "dev-master",
+    "onlineidentity/channable": "^1.0",
     "illuminate/support": "^6|^7|^8|^9|^10"
   },
   "autoload": {
